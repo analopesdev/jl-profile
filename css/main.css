@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #1c1c1c;
+  --primary-back: #000;
+  --primary-light: #4D4C4C;
+  --secondary-light: #BCBCBC;
+  --color-fixed: #2CCB69;
+}
+
+@media screen and (min-width: 320px){
+  .jl-page-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: var(--primary-color);
+    border: 30px solid var(--primary-back);
+  }
+
+  .jl-topbar{
+    width: 100%;
+    height: 110px;
+    display: block;
+    background-color: transparent;
+
+    /* Fixando elemento em cima do elemento pai */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .jl-logo{
+    width: 74px;
+    height: 110px;
+    float: left;
+    margin-left: 60px;
+    background-color: var(--color-fixed);
+    border-radius: 0 0 37px 0;
+  }
+
+  .jl-logo img{
+    width: 46px;
+    height: 32px;
+    display: block;
+    margin: 55px auto 0 auto;
+  }
+
+  .jl-menu{
+    
+  }
+}
+
+@media screen and (min-width: 576px){
+
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
+
+@media screen and (min-width: 1364px){
+
+}
+
+@media screen and (min-width: 1600px){
+
+}
+
+
+
+
