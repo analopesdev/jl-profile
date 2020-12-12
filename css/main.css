@@ -50,7 +50,7 @@
   }
 
   .jl-menu{
-    
+    display: none;
   }
 }
 
@@ -63,7 +63,9 @@
 }
 
 @media screen and (min-width: 992px){
-
+  .jl-menu{
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1200px){
