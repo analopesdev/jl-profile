@@ -72,10 +72,8 @@ p{
     border-radius: 50%;
     z-index: 200;
     transition: all 0.2s ease-out;
-  }
-
-  .jl-btn-contact:hover{
-    background-position-y: -45px;
+    border: none;
+    cursor: pointer;
   }
 
   .jl-contact-info{
@@ -86,6 +84,9 @@ p{
     right: 65px;
     bottom: 115px;
     z-index: 200;
+
+    /* escondendo */
+    display: none;
   }
 
   .jl-contact-info-inner{
@@ -250,4 +251,13 @@ p{
 
 .jl-bg-black{
   background-color: #000;
+}
+
+/* CLASSES DE COMPORTAMENTO */
+.jl-is-open{
+  display: block;
+}
+
+.jl-change-icon{
+  background-position-y: -45px;
 }
